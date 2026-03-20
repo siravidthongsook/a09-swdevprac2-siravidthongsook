@@ -1,0 +1,48 @@
+export const fallbackVenueData: VenueItem[] = [
+  {
+    _id: "67d044e0c0062950a985c509",
+    name: "The Bloom Pavilion",
+    address: "342 Rama IV Road",
+    district: "Pathumwan",
+    province: "Bangkok",
+    postalcode: "10330",
+    tel: "024435595",
+    picture: "https://drive.google.com/uc?id=1GJPsjTt8k-2ILv6A4ER1sRr6yTG_M2f5",
+    dailyrate: 90000,
+    __v: 0,
+    id: "67d044e0c0062950a985c509",
+  },
+  {
+    _id: "67d04663c0062950a985c50c",
+    name: "Spark Space",
+    address: "566 Petchburi Road",
+    district: "Huai Khwang",
+    province: "Bangkok",
+    postalcode: "10310",
+    tel: "024459958",
+    picture: "https://drive.google.com/uc?id=1ALybl0NqKJvS5xRbUA8Bev6jz1NvQglj",
+    dailyrate: 75000,
+    __v: 0,
+    id: "67d04663c0062950a985c50c",
+  },
+  {
+    _id: "67d047cec0062950a985c50f",
+    name: "The Grand Table",
+    address: "664 Phahonyothin Rd",
+    district: "Khlong Luang",
+    province: "Pathum Thani",
+    postalcode: "12120",
+    tel: "024076658",
+    picture: "https://drive.google.com/uc?id=1BZ1NIsaC2qKyMg68YjhAS_qSYwRlBgpO",
+    dailyrate: 50000,
+    __v: 0,
+    id: "67d047cec0062950a985c50f",
+  },
+];
+
+export const fallbackVenueJson: VenueJson = {
+  success: true,
+  count: fallbackVenueData.length,
+  pagination: {},
+  data: fallbackVenueData,
+};
